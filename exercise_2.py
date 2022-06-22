@@ -1,4 +1,4 @@
-# Este ejemplo toma una lista de numero e imprime el menor entre todos ellos
+# Este ejemplo toma una lista de numero e imprime la sumatoria de los cuadrados de ellos
 numeros = input("Ingrese la lista de números separada por comas: ")
 
 # Convierte la cadena numeros en una lista, y se inicializa una variable sumatoria en cero

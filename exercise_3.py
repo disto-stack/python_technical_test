@@ -1,7 +1,7 @@
-# Este ejemplo toma una lista de numero e imprime el menor entre todos ellos
+# Este ejemplo toma una lista de numero y los ordena de menor a mayor
 numeros = input("Ingrese la lista de números separada por comas: ")
 
-# Convierte la cadena numeros en una lista, y se inicializa una variable sumatoria en cero
+# Convierte la cadena numeros en una lista
 lista_numeros = numeros.split(',')
 
 # Se recorre la lista para ordenarla, en este caso se utilizará el ordenamiento burbuja (Bubble sort)
