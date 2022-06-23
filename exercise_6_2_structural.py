@@ -20,9 +20,9 @@
 '''
 
 # Se define una clase abstracta, que será la abstracción de todas las figuras
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
-class Figura(metaclass=ABCMeta):
+class Figura(ABC):
 
   # Se define una clase abstracta para poder dibujar en cada una de las figuras
   @abstractmethod
@@ -31,7 +31,7 @@ class Figura(metaclass=ABCMeta):
 
 # Se define una clase que extiende de la clase Figura, este sería un decorador genérico y será la
 # abstracción de todos los decoradores
-class FiguraDecorador(Figura, metaclass=ABCMeta):
+class FiguraDecorador(Figura, ABC):
 
   # En el contructor se define una propiedad, que será la figura que queremos decorar
   def __init__(self, figuraDecorada):
