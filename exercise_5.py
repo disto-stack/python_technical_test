@@ -6,13 +6,13 @@ palabra = input("Ingrese la palabra a evaluar: ")
 anagramas_set = set()
 
 
-# En este caso se utilizara un algoritmo recursivo oara hallar permutaciones, 
+# En este caso se utilizara un algoritmo recursivo para hallar permutaciones, 
 # para esta declaramos una funcion que tendrá de parametro la palbra que queremos permutar
 # y un i, que sirve para controlar los diferentes entornos generados en un algoritmo recursivo,
-# asi evitamos un ciclo infinito
+# así evitamos un ciclo infinito
 def generar_permutaciones(palabra_a_permutar, i = 0):
 
-  # Se guarda un anagrama en el set anteriormente instanciado cuando i alcanza la longitud de las palabras
+  # Se guarda un anagrama en el set anteriormente instanciado, esto pasa cuando i alcanza la longitud de las palabras
   if i == len(palabra_a_permutar):
 
     # El join es porque por los difernetes entornos, las palabras pasan como un arreglo de letras

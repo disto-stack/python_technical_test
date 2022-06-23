@@ -1,4 +1,4 @@
-# Este ejemplo toma una lista de numero e imprime el menor entre todos ellos
+# Este ejemplo toma una lista de números e imprime el menor entre todos ellos
 numeros = input("Ingrese la lista de números separada por comas: ")
 
 # Convierte la cadena numeros en una lista
