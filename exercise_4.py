@@ -4,9 +4,7 @@ numeros = input("Ingrese la lista de números separada por comas: ")
 
 # Convierte la cadena numeros en una lista, y se instancia un nuevo diccionario donde se guardaran los numeros repetidos
 lista_numeros = numeros.split(',')
-numeros_repetidos_dict = dict({
-  "1": 0
-})
+numeros_repetidos_dict = dict()
 
 # Se recorre la lista de numeros
 for numero in lista_numeros:
